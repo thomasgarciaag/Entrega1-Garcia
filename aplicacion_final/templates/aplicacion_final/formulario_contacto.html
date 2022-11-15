@@ -1,0 +1,16 @@
+{% extends "aplicacion_final/base.html" %}
+
+{% block contenido %}
+
+
+<form action =""  method="post"> 
+    {% csrf_token %}
+
+    {{ formulario.as_p }}
+
+    <input type="submit" value="cargar contacto">
+
+
+</form>
+
+{% endblock %}

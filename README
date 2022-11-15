@@ -1,0 +1,16 @@
+El proyecto consiste en desarrollar una web de una empresa de Refrigeración llamada TyL.
+
+La página posee una página de inicio: http://127.0.0.1:8000/tyl/inicio/
+Y varias páginas al interior:
+
+•	http://127.0.0.1:8000/tyl/formulario_contacto/   nos permite enviar un formulario de contacto que guarda los datos en el modelo “contacto”
+•	http://127.0.0.1:8000/tyl/servicios/   es una página a construir. No hay formularios.
+•	http://127.0.0.1:8000/tyl/sugerencias/  nos permite enviar un formulario de sugerencias que guarda los datos en el modelo “sugerencia”
+•	http://127.0.0.1:8000/tyl/formulario_email/ nos permite enviar un formulario de sugerencias que guarda los datos en el modelo “email”
+•	http://127.0.0.1:8000/tyl/formulario_contacto/buscar/ nos permite buscar un nombre del modelo “contacto”.
+•	http://127.0.0.1:8000/tyl/formulario_contacto/buscar/resultado/ nos muestra el filtro de la url anterior. Nos presenta el nombre y el teléfono de contacto del modelo “contacto”.
+
+Existen 3 modelos: 
+•	Contacto: con variables nombre y teléfono
+•	Sugerencia: con variables nombre y sugerencia
+•	Email: con variables nombre e email.

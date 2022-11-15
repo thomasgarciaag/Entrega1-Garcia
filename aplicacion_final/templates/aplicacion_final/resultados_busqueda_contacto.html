@@ -1,0 +1,14 @@
+{% extends "aplicacion_final/base.html" %}
+
+{% block contenido %}
+
+<ul>
+    {% for contacto in Contactos %}
+
+        <li>{{contacto.nombre}} - {{contacto.telefono}}</li>
+
+    {% endfor%}
+
+</ul>
+
+{% endblock %}

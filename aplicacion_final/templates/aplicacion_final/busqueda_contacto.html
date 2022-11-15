@@ -1,0 +1,13 @@
+{% extends "aplicacion_final/base.html" %}
+
+{% block contenido %}
+
+<form action ="{% url "resultado_buscar_contacto" %}"  method="GET"> 
+
+    <p> Nombre del contacto: <input type="text" name="nombre_buscado" id="nombre_buscado">
+        <input type="submit" value="Buscar"> 
+    </p>
+    
+</form>
+
+{% endblock %}
